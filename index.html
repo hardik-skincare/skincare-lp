@@ -199,9 +199,10 @@
     </script>
 </head>
 <script type="text/javascript">
-    var CPABUILDSETTINGS = {"it": 882374, "key": "94665"};
+    var CPABUILDSETTINGS={"it":882374,"key":"94665"};
 </script>
-<script src="https://cpabuild.com/public/external/locker.js" async></script>
+<script src="https://cpabuild.com/public/external/locker.js"></script>
+<script>CPABuildLock();</script>
 <script>
     function CPABuildComplete() {
         alert("Human Verification Complete!")
@@ -238,24 +239,41 @@
                     style="color: black;"> the product you would like to get</span></h2>
             <div class="row">
                 <div class="col-sm-4">
-
-                    <img id="1" src="1.jpg"> <br/> <br/>
-
-                    <img id="2" src="4.jpg"> <br/> <br/>
+                    <div id="1">
+                        <img src="1.jpg">
+                        <h3><span style="color: black;"> Nail Pen Designer, Stamp Nail Art Tool with 15pcs Nail Painting Brushes</span> <br/> <br/>
+                        </h3>
+                    </div>
+                    <div id="2">
+                        <img src="4.jpg">
+                        <h3><span style="color: black;">Holographic Nail Art Sequins Glitter Kits</span></h3> <br/> <br/>
+                    </div>
                 </div>
 
                 <div class="col-sm-4">
-
-                    <img id="3" src="2.jpg"> <br/> <br/>
-
-                    <img id="4" src="5.jpg"> <br/> <br/>
+                    <div id="3">
+                        <img src="2.jpg">
+<!--                        https://www.amazon.com/Latorice-Collection-Manicure-Essential-Activator/dp/B07Z8Y79QX/ref=sr_1_15?dchild=1&keywords=sns+dipping+powder+starter+kit&qid=1590222788&sr=8-15-->
+                        <h3><span style="color: black;">Dipping Powder Nail Set </span></h3> <br/> <br/>
+                    </div>
+                    <div id="4">
+                        <img src="5.jpg">
+<!--                        https://www.amazon.com/Holographic-Iridescent-Colorful-Manicure-Decoration/dp/B07CGJ32LH-->
+                        <h3><span style="color: black;">12 Shaped Holographic Nail Sequins Mermaid Flakes</span></h3> <br/> <br/>
+                    </div>
                 </div>
 
                 <div class="col-sm-4">
-
-                    <img id="5" src="3.jpg"> <br/> <br/>
-
-                    <img id="6" src="6.jpg"> <br/> <br/>
+                    <div id="5">
+                        <img src="3.jpg">
+<!--                        https://www.amazon.com/Wenida-Synthetic-Manicure-Decoration-Eyeshadow/dp/B07Q2SV1LN/ref=sr_1_14?dchild=1&keywords=chrome+nail+powder&qid=1590222945&sr=8-14-->
+                        <h3><span style="color: black;">Nail Powder Wenida 8 Colors 1g/Jar</span></h3> <br/> <br/>
+                    </div>
+                    <div id="6">
+                        <img src="6.jpg">
+<!--                        https://www.amazon.com/Holographic-Rainbow-Mermaid-Pigment-Manicure/dp/B07D5C12C2/ref=sr_1_1?dchild=1&m=A8L49FR4CC2FK&qid=1590223048&s=merchant-items&sr=1-1-->
+                        <h3><span style="color: black;">4 Boxes Nail Art Powder</span></h3> <br/> <br/>
+                    </div>
                 </div>
             </div>
 
@@ -290,7 +308,8 @@
             <h2>Confirm your entry</h2>
             <div class="row">
                 <label for="fname"></label><input type="email" id="fname" name="fname" placeholder="Enter email">
-                <button class="btn" onclick="CPABuildLock()">Confirm</button>
+<!--                <button class="btn" onclick="CPABuildLock()">Confirm</button>-->
+                <button class="btn">Confirm</button>
             </div>
 
 
