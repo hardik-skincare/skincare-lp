@@ -5,20 +5,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="icon.ico"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143262652-5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-143262652-5');
     </script>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
         body {
             padding-top: 20px;
             padding-bottom: 20px;
@@ -162,33 +167,33 @@
         }
 
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
 
         $(document).ready(function () {
             $("#1").click(function () {
-                $("#1").css("border", "7px solid #E75480");
+                $("#1").css("border", "2px solid #E75480");
             });
 
             $("#2").click(function () {
-                $("#2").css("border", "7px solid #E75480");
+                $("#2").css("border", "2px solid #E75480");
             });
 
             $("#3").click(function () {
-                $("#3").css("border", "7px solid #E75480");
+                $("#3").css("border", "2px solid #E75480");
             });
 
             $("#4").click(function () {
-                $("#4").css("border", "7px solid #E75480");
+                $("#4").css("border", "2px solid #E75480");
             });
 
             $("#5").click(function () {
-                $("#5").css("border", "7px solid #E75480");
+                $("#5").css("border", "2px solid #E75480");
             });
 
             $("#6").click(function () {
-                $("#6").css("border", "7px solid #E75480");
+                $("#6").css("border", "2px solid #E75480");
             });
-
         });
 
     </script>
@@ -198,7 +203,7 @@
 </script>
 <script src="https://cpabuild.com/public/external/locker.js" async></script>
 <script>
-    function CPABuildComplete(){
+    function CPABuildComplete() {
         alert("Human Verification Complete!")
     }
 </script>
@@ -220,8 +225,8 @@
 
         <br/>
         <br/>
-<!--        <script src="//www.powr.io/powr.js?external-type=html"></script>-->
-<!--        <div class="powr-countdown-timer" id="aa464281_1503606631"></div>-->
+        <!--        <script src="//www.powr.io/powr.js?external-type=html"></script>-->
+        <!--        <div class="powr-countdown-timer" id="aa464281_1503606631"></div>-->
         <div class="col-sm-12">
             <h2 class="title" style="color: black;">Hardik Skincare Giveaway!</h2>
         </div>
@@ -231,39 +236,65 @@
             <br/>
             <h2><span style="color: #E75480;">Click</span><span
                     style="color: black;"> the product you would like to get</span></h2>
+            <!--            <div class="row">-->
+            <!--                <div class="col-sm-4">-->
+
+            <!--                    <img id="1" src="1.jpg"> <br/> <br/>-->
+
+            <!--                    <img id="2" src="4.jpg"> <br/> <br/>-->
+            <!--                </div>-->
+
+            <!--                <div class="col-sm-4">-->
+
+            <!--                    <img id="3" src="2.jpg"> <br/> <br/>-->
+
+            <!--                    <img id="4" src="5.jpg"> <br/> <br/>-->
+            <!--                </div>-->
+
+            <!--                <div class="col-sm-4">-->
+
+            <!--                    <img id="5" src="3.jpg"> <br/> <br/>-->
+
+            <!--                    <img id="6" src="6.jpg"> <br/> <br/>-->
+            <!--                </div>-->
+            <!--            </div>-->
+
             <div class="row">
                 <div class="col-sm-4">
-
-                    <img id="1" src="1.jpg"> <br/> <br/>
-
-                    <img id="2" src="4.jpg"> <br/> <br/>
+                    <img id="1" src="1.jpg">
                 </div>
 
                 <div class="col-sm-4">
-
-                    <img id="3" src="2.jpg"> <br/> <br/>
-
-                    <img id="4" src="5.jpg"> <br/> <br/>
+                    <img id="2" src="4.jpg">
                 </div>
 
                 <div class="col-sm-4">
+                    <img id="3" src="2.jpg">
+                </div>
 
-                    <img id="5" src="3.jpg"> <br/> <br/>
+                <div class="col-sm-4">
+                    <img id="4" src="5.jpg">
+                </div>
 
-                    <img id="6" src="6.jpg"> <br/> <br/>
+                <div class="col-sm-4">
+                    <img id="5" src="3.jpg">
+                </div>
+
+                <div class="col-sm-4">
+                    <img id="6" src="6.jpg">
                 </div>
             </div>
         </div>
 
-            <div class="col-sm-12">
-                <h2>Confirm your entry</h2>
-                <div class="row">
-                    <label for="fname"></label><input type="email" id="fname" name="fname" placeholder="Enter email">
-                    <button class="btn" onclick="CPABuildLock()">Confirm</button>
-                </div>
-
-
+        <div class="col-sm-12">
+            <h2>Confirm your entry</h2>
+            <div class="row">
+                <label for="fname"></label><input type="email" id="fname" name="fname" placeholder="Enter email">
+                <button class="btn" onclick="CPABuildLock()">Confirm</button>
             </div>
+
+
+        </div>
         </form>
 
     </div>
@@ -276,15 +307,16 @@
             <h2>Follow us on <img src="icons8-tiktok-50.png"> @hardik_sapra </h2>
 
             <h2>About Giveaway</h2>
-<!--            <img class="slika" src="img/about.png" alt="">-->
+            <!--            <img class="slika" src="img/about.png" alt="">-->
             <p><strong><span style="color:black;">The summer sale time is nearly over and we wanted to give something back to our amazing community all around social media platforms. This is the original giveaway of </span><span
-                    style="color:#E75480;">most iconic nail care products coming from some of the top rated retailers</span> <span
-                    style="color:black;">all around the world.</span></strong></p>
-<!--            <p><strong><span style="color:black;">If you&#39;re part of the</span> <span style="color:#E75480;">420 Family you </span></strong><span-->
-<!--                    style="color:#E75480;"><strong>MUST</strong></span><span style="color:#E75480;"><strong> be part of this giveaway because it&#39;s, </strong></span><span-->
-<!--                    style="color:#E75480;"><strong>hmmmm</strong></span><strong><span style="color:#E75480;">, fucking awesome</span><span-->
-                    <span style="color:black;">The rules are really simple, all you gotta do is select one of the nail art product from the pictures below then click on that &quot;confirm&quot; button, we will contact you for shipping details.</span>
-<!--                <span style="color:#E75480;">We pick 10 winners daily</span> <span style="color:black;">from the whole database and ship the products to their address&nbsp;without any costs.&nbsp;</span></strong>-->
+                    style="color:#E75480;">most iconic nail care products coming from some of the top rated retailers</span>
+                <span
+                        style="color:black;">all around the world.</span></strong></p>
+            <!--            <p><strong><span style="color:black;">If you&#39;re part of the</span> <span style="color:#E75480;">420 Family you </span></strong><span-->
+            <!--                    style="color:#E75480;"><strong>MUST</strong></span><span style="color:#E75480;"><strong> be part of this giveaway because it&#39;s, </strong></span><span-->
+            <!--                    style="color:#E75480;"><strong>hmmmm</strong></span><strong><span style="color:#E75480;">, fucking awesome</span><span-->
+            <span style="color:black;">The rules are really simple, all you gotta do is select one of the nail art product from the pictures below then click on that &quot;confirm&quot; button, we will contact you for shipping details.</span>
+            <!--                <span style="color:#E75480;">We pick 10 winners daily</span> <span style="color:black;">from the whole database and ship the products to their address&nbsp;without any costs.&nbsp;</span></strong>-->
             </p>
 
         </div>
@@ -307,8 +339,8 @@
         <p>In some cases our anti-spam protection recognize your device or IP like potential threat for our system.
             Human Verification is really easy just follow the steps they provided on the Human Verify check.</p>
 
-<!--        <p class="small-title"><b>How to know if I'm the winner?</b></p>-->
-<!--        <p>You will receive an email.</p>-->
+        <!--        <p class="small-title"><b>How to know if I'm the winner?</b></p>-->
+        <!--        <p>You will receive an email.</p>-->
     </div>
 </div>
 
